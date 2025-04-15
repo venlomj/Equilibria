@@ -30,5 +30,6 @@ Each microservice communicates via **REST APIs** and **event-driven messaging** 
 ## 🔧 Setup & Installation  
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/your-username/Equilibria.git
+   git clone https://github.com/venlomj/Equilibria.git
+   
 
