@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StressCheckService", "StressCheckService", "{0EAE2AC8-E932-4373-87CF-A6F082006190}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InterventionService", "InterventionService", "{E34B202B-D8CA-4305-910D-C60B6B9330B0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NotificationService", "NotificationService", "{A5C1DDF2-7838-4DB6-B47D-6E45757AECA9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OrganizationService", "OrganizationService", "{DF92895B-31BA-45B8-8E94-67FACD946BF0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UserService", "UserService", "{572F7C48-4C73-4716-A023-99CF2BE20C0F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WellnessReportService", "WellnessReportService", "{98CE458B-E6D9-4A46-A32C-C3ABF85DAC4A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WorkloadService", "WorkloadService", "{C017927B-907C-49C3-974A-49730FBF215E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserService.API", "UserService\UserService.API\UserService.API.csproj", "{D7FC2A7D-9537-457B-9DD3-6AB2F078B202}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserService.BLL", "UserService\UserService.BLL\UserService.BLL.csproj", "{313C953E-1AA1-4A5E-8C1E-632B54586845}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserService.DAL", "UserService\UserService.DAL\UserService.DAL.csproj", "{E40D0CD3-D177-4F79-8652-C75D85C6144E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7FC2A7D-9537-457B-9DD3-6AB2F078B202}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7FC2A7D-9537-457B-9DD3-6AB2F078B202}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7FC2A7D-9537-457B-9DD3-6AB2F078B202}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7FC2A7D-9537-457B-9DD3-6AB2F078B202}.Release|Any CPU.Build.0 = Release|Any CPU
+		{313C953E-1AA1-4A5E-8C1E-632B54586845}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{313C953E-1AA1-4A5E-8C1E-632B54586845}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{313C953E-1AA1-4A5E-8C1E-632B54586845}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{313C953E-1AA1-4A5E-8C1E-632B54586845}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E40D0CD3-D177-4F79-8652-C75D85C6144E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E40D0CD3-D177-4F79-8652-C75D85C6144E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E40D0CD3-D177-4F79-8652-C75D85C6144E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E40D0CD3-D177-4F79-8652-C75D85C6144E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D7FC2A7D-9537-457B-9DD3-6AB2F078B202} = {572F7C48-4C73-4716-A023-99CF2BE20C0F}
+		{313C953E-1AA1-4A5E-8C1E-632B54586845} = {572F7C48-4C73-4716-A023-99CF2BE20C0F}
+		{E40D0CD3-D177-4F79-8652-C75D85C6144E} = {572F7C48-4C73-4716-A023-99CF2BE20C0F}
+	EndGlobalSection
+EndGlobal
